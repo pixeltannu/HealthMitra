@@ -2,6 +2,12 @@
 
 A web-based health assistant built for **Bharat Academix CodeQuest Hackathon 2026**.
 
+Line 3: A web-based health assistant built for **Bharat Academix CodeQuest Hackathon 2026**.
+Line 4: (blank)
+Line 5: 🔗 **Live Demo:** https://pixeltannu.github.io/HealthMitra/
+Line 6: (blank)
+Line 7: ## About
+
 ## About
 
 HealthMitra helps users in rural and semi-urban areas of India by:
