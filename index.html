@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthMitra - Symptom Checker & Health Center Locator</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>🩺 HealthMitra</h1>
+    <p>Your guide to symptom awareness & nearby healthcare</p>
+  </header>
+
+  <main class="container">
+
+    <!-- ===================== SYMPTOM CHECKER SECTION ===================== -->
+    <section class="card">
+      <h2>Symptom Checker</h2>
+      <p>Select your symptoms below:</p>
+
+      <div class="symptom-grid">
+        <label><input type="checkbox" value="fever" class="symptom"> Fever</label>
+        <label><input type="checkbox" value="cough" class="symptom"> Cough</label>
+        <label><input type="checkbox" value="headache" class="symptom"> Headache</label>
+        <label><input type="checkbox" value="bodyache" class="symptom"> Body Ache</label>
+        <label><input type="checkbox" value="sorethroat" class="symptom"> Sore Throat</label>
+        <label><input type="checkbox" value="chestpain" class="symptom"> Chest Pain</label>
+        <label><input type="checkbox" value="breathlessness" class="symptom"> Breathlessness</label>
+        <label><input type="checkbox" value="fatigue" class="symptom"> Fatigue / Weakness</label>
+        <label><input type="checkbox" value="nausea" class="symptom"> Nausea / Vomiting</label>
+        <label><input type="checkbox" value="diarrhea" class="symptom"> Diarrhea</label>
+      </div>
+
+      <button id="checkBtn" class="btn">Check Symptoms</button>
+
+      <div id="result" class="result-box"></div>
+
+      <p class="disclaimer">
+        ⚠️ Disclaimer: This tool provides general guidance only and is not a substitute
+        for professional medical advice. Please consult a doctor for accurate diagnosis.
+      </p>
+    </section>
+
+    <!-- ===================== HOSPITAL LOCATOR SECTION ===================== -->
+    <section class="card">
+      <h2>Nearby Health Center Locator</h2>
+      <p>Select your area to find nearby health centers:</p>
+
+      <select id="areaSelect" class="dropdown">
+        <option value="">-- Select Area --</option>
+        <option value="area1">Area 1 - Jamshedpur Central</option>
+        <option value="area2">Area 2 - Sakchi</option>
+        <option value="area3">Area 3 - Bistupur</option>
+      </select>
+
+      <button id="locateBtn" class="btn">Find Health Centers</button>
+
+      <div id="hospitalResult" class="result-box"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 HealthMitra | Built for Bharat Academix CodeQuest Hackathon</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f9f9;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #2e7d6f;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.card h2 {
+  color: #2e7d6f;
+  margin-bottom: 10px;
+}
+
+/* Symptom Grid */
+.symptom-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 15px 0;
+}
+
+.symptom-grid label {
+  background-color: #f0f7f6;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.symptom-grid label:hover {
+  background-color: #dcefea;
+}
+
+/* Button */
+.btn {
+  background-color: #2e7d6f;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #245d52;
+}
+
+/* Result Box */
+.result-box {
+  margin-top: 18px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f0f7f6;
+  min-height: 30px;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.result-box.warning {
+  background-color: #fdecea;
+  border-left: 5px solid #d9534f;
+  color: #a33;
+}
+
+.result-box.minor {
+  background-color: #eafaf1;
+  border-left: 5px solid #2e7d6f;
+  color: #1f5f54;
+}
+
+/* Dropdown */
+.dropdown {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+/* Disclaimer */
+.disclaimer {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* Hospital list */
+.hospital-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.hospital-item:last-child {
+  border-bottom: none;
+}
+
+.hospital-item h4 {
+  color: #2e7d6f;
+  margin-bottom: 4px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-size: 0.85rem;
+}
