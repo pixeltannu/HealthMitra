@@ -4,7 +4,7 @@ A web-based health assistant built for **Bharat Academix CodeQuest Hackathon 202
 
 Line 3: A web-based health assistant built for **Bharat Academix CodeQuest Hackathon 2026**.
 Line 4: (blank)
-Line 5: 🔗 **Live Demo:** https://pixeltannu.github.io/HealthMitra/
+Line 5: 🔗 **Live Demo:** https://euphonious-sfogliatella-64f9c2.netlify.app/
 Line 6: (blank)
 Line 7: ## About
 
